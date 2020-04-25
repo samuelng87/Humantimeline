@@ -1,3 +1,58 @@
+
+
+
+/***
+footer {
+  width:105%;
+  left: -5px;
+  font-size:10px;
+  color:white;
+  text-align:left;
+  background-color:black;
+  position: absolute;
+  padding:0px 0px 10px 10px;
+}
+****/
+* {
+  box-sizing: border-box;
+}
+
+.coverpage {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height:150px;
+  line-height:0.1;
+}
+
+.coverpage p {
+  font-size: small;
+}
+
+.fire {
+ 
+  position: absolute;
+  left: 50px;
+}
+
+
+.money {
+position: absolute;
+right: 70px;
+}
+
+
+/****fire & money ****/
+h5 {
+  color: red;
+  font-size: large;
+}
+
+img {
+  width:100%;
+
+}
+
 body {
 
 }
@@ -9,18 +64,27 @@ body {
 
 #sidebar {
 height:100%;
+/*
 border-right:3px solid gray;
+*/
 position:fixed;  
- overflow:auto;
- top:0px;
- left:0px;
+overflow:auto;
+top:-16px;
+left:0px;
+width:250px;
 
 }
 
 #link2 {
-margin-left:350px;
+margin-left:250px;
 position:absolute;  
 padding:0px 10px 10px 10px;
+left:0;
+}
+
+.bar-img {
+ 
+width:100%;
 }
 
 .nav-link {
@@ -30,7 +94,6 @@ display:block;
 ul {
 padding:0;
 overflow:auto;
-    line-height:20;
 }
 
 li {
@@ -44,7 +107,7 @@ padding:13px;
 /***table for link 2 ***/
 table {
   width:100%;
-
+margin-bottom: 120px;
 }
 
 tr {
@@ -52,13 +115,29 @@ tr {
 }
 
 th {
-  
+  text-align:center;
+ 
+
 
 }
 
 td {
-  
+
+
 }
+
+.population {
+  color: red;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.story {
+  line-height: 1.4;
+  text-align:left;
+  margin-bottom:40px;
+} 
+
 
 a {
   /*border-top:1px solid gray;**/
@@ -66,8 +145,10 @@ a {
   
 }
 
-h1 {
-  padding:10px;
+#timeline {
+  font-size: 28px;
+  padding:0px;
+  line-height: 1.5;
 }
 
 h2{
@@ -75,21 +156,55 @@ h2{
 }
 
 h3 {
-  
+  line-height:3;
 }
 
+
+
+
+
+  /* For mobile phones: */
   @media only screen and (max-width: 815px) {
-    /* For mobile phones: */
-    
-    h2 {
-      font-size:15px;
-      
+  
+    .story {
+    margin:0px auto;
+    line-height:1;
+
+    }
+
+    .coverpage p {
+      font-size: x-small;
+    }
+
+    .coverpage {
+      height:170px;
     }
     
-    ul {
+    .fire {
+      position: absolute;
+      left: 81px;
+  
+    }
+    
+    .money {
+      position: absolute;
+      right: 110px;
+    }
 
-      height: 215px;
-      line-height:20;
+    #timeline {
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    h2 {
+      font-size:20px;
+    }
+
+    
+    ul {
+margin:auto;
+      height: 229px;
+     
     }
     
 #sidebar {
@@ -99,8 +214,11 @@ h3 {
         max-height: 230px;
         border-bottom: 2px solid;
         background-color:white;
+        
+
+
       /***
-        top: 0;
+      
         padding: 0;
         margin: 0;
       border: none;
@@ -116,3 +234,29 @@ h3 {
     }
 
 }
+
+
+  /* For mobile phones: */
+  @media only screen and (max-width: 400px) {
+  
+ 
+    .fire {
+      position: absolute;
+      left: 9px;
+  
+    }
+    
+    .money {
+      position: absolute;
+    right: 25px;
+    }
+
+    
+    #link2 {
+      position:absolute;
+             margin-left: 0px;
+             margin-top: 225px;
+             width: 100%;
+    }
+
+  }
