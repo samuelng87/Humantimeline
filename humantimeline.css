@@ -1,6 +1,5 @@
 
 
-
 /***
 footer {
   width:105%;
@@ -16,6 +15,40 @@ footer {
 * {
   box-sizing: border-box;
 }
+
+.redwords {
+  color: red;
+}
+
+.coverpage2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  line-height:0;
+
+  
+}
+
+.coverpagewords1 {
+  right: 16%;
+  position: relative;
+}
+
+.coverpagewords2 {
+  left: 13%;
+  position: relative;
+}
+
+.smallwords {
+  font-size: 12px;
+  margin:25px auto;
+}
+
+.smallwords {
+  font-size: xx-small;
+}
+
+
 
 .coverpage {
   display: flex;
@@ -107,7 +140,7 @@ padding:13px;
 /***table for link 2 ***/
 table {
   width:100%;
-margin-bottom: 120px;
+margin-bottom: 50px;
 }
 
 tr {
@@ -133,9 +166,9 @@ td {
 }
 
 .story {
-  line-height: 1.4;
+  line-height: 1.2;
   text-align:left;
-  margin-bottom:40px;
+
 } 
 
 
@@ -165,10 +198,13 @@ h3 {
 
   /* For mobile phones: */
   @media only screen and (max-width: 815px) {
+
+
   
     .story {
     margin:0px auto;
     line-height:1;
+    padding-top: 15px;
 
     }
 
@@ -235,10 +271,38 @@ margin:auto;
 
 }
 
+/**For Ipad only *****/
+
+@media (max-width:768px) {
+
+  ul {
+  height: 281px;
+}
+
+#sidebar {
+  max-height: 285px;
+}
+}
 
   /* For mobile phones: */
   @media only screen and (max-width: 400px) {
   
+    .coverpagewords1 {
+      right: 2%;
+      position: relative;
+    }
+    
+    .coverpagewords2 {
+      left: 2%;
+      position: relative;
+    }
+    
+    .smallwords {
+      margin: 20px auto;
+      font-size:11px;
+      line-height: normal;
+    }
+ 
  
     .fire {
       position: absolute;
@@ -260,3 +324,43 @@ margin:auto;
     }
 
   }
+
+
+  @media only screen and (min-width:815px) {
+
+    h8 {
+      position: absolute;
+       font-size: 45px;
+      color:rgb(255,255,255,0.4);
+      display:block;
+      width: ;
+    
+    }
+
+
+#link2 {
+  width: 62%;
+  left: 115px;
+}
+
+
+.coverpagewords1 {
+  right: 11%;
+  position: relative;
+}
+
+.coverpagewords2 {
+  left: 13%;
+  position: relative;
+}
+
+.smallwords {
+  font-size: 12px;
+  margin:25px auto;
+}
+
+.bar-img {
+  height: 230px;
+}
+
+}
