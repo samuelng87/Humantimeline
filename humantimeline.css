@@ -12,6 +12,12 @@ footer {
   padding:0px 0px 10px 10px;
 }
 ****/
+
+#background-image {
+  position: absolute;
+  background-image: url("https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/3117853/772/772/m1/fpnw/wm1/1607.m00.i101.n021.p.c25.179331677-space-w-.jpg?1502726817&s=4ef63e76f4b033e198027c964606b329");
+}
+
 * {
   box-sizing: border-box;
 }
@@ -141,6 +147,7 @@ padding:13px;
 table {
   width:100%;
 margin-bottom: 50px;
+
 }
 
 tr {
@@ -333,7 +340,7 @@ margin:auto;
        font-size: 45px;
       color:rgb(255,255,255,0.4);
       display:block;
-      width: ;
+    
     
     }
 
@@ -362,5 +369,51 @@ margin:auto;
 .bar-img {
   height: 230px;
 }
+
+.img-empires {
+  text-align: left;
+    font-size: 12px;
+    font-style: italic;
+    height: 600px;
+    overflow: auto;
+    border-top: 15px solid gray;
+    border-bottom: 15px solid gray;
+    border-radius: 10px;
+
+} 
+
+.human-image {
+  text-align: left;
+  font-size: 12px;
+  font-style: italic;
+  height: 350px;
+  overflow: auto;
+  border-top: 15px solid rgba(53, 212, 180, 0.2);
+  border-bottom: 15px solid rgba(53, 212, 180, 0.2);
+  border-radius: 10px;
+}
+
+.cosmo-images {
+  text-align: left;
+  font-size: 12px;
+  font-style: italic;
+  height: 350px;
+  overflow: auto;
+  border-top: 15px solid rgba(147, 116, 231, 0.2);
+  border-bottom: 15px solid rgba(147, 116, 231, 0.2);
+  border-radius: 10px;
+}
+
+.farm-images {
+  text-align: left;
+  font-size: 12px;
+  font-style: italic;
+  height: 350px;
+  overflow: auto;
+  border-top: 15px solid rgba(78, 198, 84, 0.2);
+  border-bottom: 15px solid rgba(78, 198, 84, 0.2);
+  border-radius: 10px;
+}
+
 
 }
