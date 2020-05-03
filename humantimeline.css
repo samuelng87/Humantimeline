@@ -13,6 +13,39 @@ footer {
 }
 ****/
 
+.patrickfooter {
+
+width: 15%;
+}
+.samuelfooter {
+  width: 15%;
+}
+.footer-smallwords {
+  font-size: 10px;
+  text-align: left;
+  line-height: 1.5;
+  padding: 0px 9px 0px 9px;
+  padding-top: 10px;
+
+  
+  
+}
+
+.footer {
+  border: 1px solid;
+  position: relative;
+  display: flex;
+  margin: 35px 0px 0px 0px;
+      align-items: center;
+    justify-content: center;
+  
+}
+
+.yuvalfooter {
+  width: 20%;
+
+}
+
 #background-image {
  
   background-image: url("https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/3117853/772/772/m1/fpnw/wm1/1607.m00.i101.n021.p.c25.179331677-space-w-.jpg?1502726817&s=4ef63e76f4b033e198027c964606b329");
@@ -336,6 +369,13 @@ margin:auto;
 
   @media only screen and (min-width:815px) {
 
+h10 {
+  position: absolute;
+  font-size: 45px;
+      color:rgb(255,255,255,0.4);
+      display:block;
+}
+    
     h8 {
       position: absolute;
        font-size: 45px;
@@ -369,7 +409,7 @@ margin:auto;
 
 .bar-img {
   height: 230px;
-  border-radius: 5px;
+
 }
 
 .img-empires {
@@ -378,8 +418,8 @@ margin:auto;
     font-style: italic;
     height: 600px;
     overflow: auto;
-    border-top: 15px solid gray;
-    border-bottom: 15px solid gray;
+    border-top: 15px solid rgba(242, 38, 19, 0.8);
+    border-bottom: 15px solid rgba(242, 38, 19, 0.8);
     border-radius: 10px;
 
 } 
@@ -439,6 +479,40 @@ margin:auto;
   border-radius: 10px;
 }
 
+.industrial-images {
+  text-align: left;
+  font-size: 12px;
+  font-style: italic;
+  height: 450px;
+  overflow: auto;
+  border-top: 15px solid gray;
+  border-bottom: 15px solid gray;
+  border-radius: 10px;
+}
+
+.technological-images {
+  text-align: left;
+  font-size: 12px;
+  font-style: italic;
+  height: 450px;
+  overflow: auto;
+  border-top:15px solid rgba(30, 139, 195, 0.2);
+  border-bottom:15px solid rgba(30, 139, 195, 0.2);
+  border-radius: 10px;
+}
+
+.sustainability-images {
+  text-align: left;
+  font-size: 12px;
+  font-style: italic;
+  height: 600px;
+  overflow: auto;
+  border-top: 15px solid rgba(242, 38, 19, 1);
+  border-bottom: 15px solid rgba(242, 38, 19,1);
+  border-radius: 10px;
+
+}
+
 .human-table {
   height: 400px;
   overflow: auto;
@@ -466,8 +540,8 @@ margin:auto;
 .table-empire {
   height: 400px;
   overflow: auto;
-  border-top: 15px solid gray;
-  border-bottom: 15px solid gray;
+  border-top: 15px solid rgba(242, 38, 19, 0.8);
+  border-bottom: 15px solid rgba(242, 38, 19, 0.8);
   border-radius: 10px;
 }
 
@@ -476,6 +550,30 @@ margin:auto;
   overflow: auto;
   border-top: 15px solid rgba(255,215,0,0.3);
   border-bottom: 15px solid rgba(255,215,0,0.3);
+  border-radius: 10px;
+}
+
+.industrial-table {
+  height: 400px;
+  overflow: auto;
+  border-top: 15px solid gray;
+  border-bottom: 15px solid gray;
+  border-radius: 10px;
+}
+
+.technological-table {
+  height: 400px;
+  overflow: auto;
+  border-top:15px solid rgba(30, 139, 195, 0.2);
+  border-bottom:15px solid rgba(30, 139, 195, 0.2);
+  border-radius: 10px;
+}
+
+.sustainability-table {
+  height: 400px;
+  overflow: auto;
+  border-top: 15px solid rgba(242, 38, 19, 1);
+  border-bottom: 15px solid rgba(242, 38, 19,1);
   border-radius: 10px;
 }
 
