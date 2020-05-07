@@ -196,7 +196,8 @@ th {
 }
 
 td {
-
+  padding-bottom:10px;  
+  padding-top: 10px;
 padding-left: 10px;
 }
 
@@ -308,6 +309,7 @@ margin:auto;
  position:relative;
         margin-left: 0px;
         margin-top: 270px;
+        
     }
 
 }
@@ -316,17 +318,410 @@ margin:auto;
 
 @media (max-width:768px) {
 
+  .img-empires {
+    text-align: left;
+      font-size: 12px;
+      font-style: italic;
+      height: 600px;
+      overflow: auto;
+      border-top: 15px solid rgba(242, 38, 19, 0.8);
+      border-bottom: 15px solid rgba(242, 38, 19, 0.8);
+      border-radius: 10px;
+  
+  } 
+  
+  .human-image {
+    text-align: left;
+    font-size: 12px;
+    font-style: italic;
+    height: 350px;
+    overflow: auto;
+    border-top: 15px solid rgba(53, 212, 180, 0.2);
+    border-bottom: 15px solid rgba(53, 212, 180, 0.2);
+    border-radius: 10px;
+  }
+  
+  .cosmo-images {
+    text-align: left;
+    font-size: 12px;
+    font-style: italic;
+    height: 350px;
+    overflow: auto;
+    border-top: 15px solid rgba(147, 116, 231, 0.2);
+    border-bottom: 15px solid rgba(147, 116, 231, 0.2);
+    border-radius: 10px;
+  }
+  
+  .farm-images {
+    text-align: left;
+    font-size: 12px;
+    font-style: italic;
+    height: 350px;
+    overflow: auto;
+    border-top: 15px solid rgba(78, 198, 84, 0.2);
+    border-bottom: 15px solid rgba(78, 198, 84, 0.2);
+    border-radius: 10px;
+  }
+  
+  .hunter-images {
+    text-align: left;
+    font-size: 12px;
+    font-style: italic;
+    height: 450px;
+    overflow: auto;
+    border-top: 15px solid rgba(171, 183, 183, 0.5);
+    border-bottom: 15px solid rgba(171, 183, 183, 0.5);
+    border-radius: 10px;
+  }
+  
+  .scientific-images {
+    text-align: left;
+    font-size: 12px;
+    font-style: italic;
+    height: 450px;
+    overflow: auto;
+    border-top: 15px solid rgba(255,215,0,0.3);
+    border-bottom: 15px solid rgba(255,215,0,0.3);
+    border-radius: 10px;
+  }
+  
+  .industrial-images {
+    text-align: left;
+    font-size: 12px;
+    font-style: italic;
+    height: 450px;
+    overflow: auto;
+    border-top: 15px solid gray;
+    border-bottom: 15px solid gray;
+    border-radius: 10px;
+  }
+  
+  .technological-images {
+    text-align: left;
+    font-size: 12px;
+    font-style: italic;
+    height: 450px;
+    overflow: auto;
+    border-top:15px solid rgba(30, 139, 195, 0.2);
+    border-bottom:15px solid rgba(30, 139, 195, 0.2);
+    border-radius: 10px;
+  }
+  
+  .sustainability-images {
+    text-align: left;
+    font-size: 12px;
+    font-style: italic;
+    height: 400px;
+    overflow: auto;
+    border-top: 15px solid rgba(242, 38, 19, 1);
+    border-bottom: 15px solid rgba(242, 38, 19,1);
+    border-radius: 10px;
+  
+  }
+  
+  .human-table {
+    height: 200px;
+    overflow: auto;
+    border-top: 15px solid rgba(53, 212, 180, 0.2);
+    border-bottom: 15px solid rgba(53, 212, 180, 0.2);
+    border-radius: 10px;
+  }
+  
+  .hunter-table {
+    height: 200px;
+    overflow: auto;
+    border-top: 15px solid rgba(171, 183, 183, 0.5);
+    border-bottom: 15px solid rgba(171, 183, 183, 0.5);
+    border-radius: 10px;
+  }
+  
+  .farm-table {
+    height: 200px;
+    overflow: auto;
+    border-top: 15px solid rgba(78, 198, 84, 0.2);
+    border-bottom: 15px solid rgba(78, 198, 84, 0.2);
+    border-radius: 10px;
+  }
+  
+  .table-empire {
+    height: 200px;
+    overflow: auto;
+    border-top: 15px solid rgba(242, 38, 19, 0.8);
+    border-bottom: 15px solid rgba(242, 38, 19, 0.8);
+    border-radius: 10px;
+  }
+  
+  .scientific-table {
+    height: 200px;
+    overflow: auto;
+    border-top: 15px solid rgba(255,215,0,0.3);
+    border-bottom: 15px solid rgba(255,215,0,0.3);
+    border-radius: 10px;
+  }
+  
+  .industrial-table {
+    height: 200px;
+    overflow: auto;
+    border-top: 15px solid gray;
+    border-bottom: 15px solid gray;
+    border-radius: 10px;
+  }
+  
+  .technological-table {
+    height: 200px;
+    overflow: auto;
+    border-top:15px solid rgba(30, 139, 195, 0.2);
+    border-bottom:15px solid rgba(30, 139, 195, 0.2);
+    border-radius: 10px;
+  }
+  
+  .sustainability-table {
+    height: 200px;
+    overflow: auto;
+    border-top: 15px solid rgba(242, 38, 19, 1);
+    border-bottom: 15px solid rgba(242, 38, 19,1);
+    border-radius: 10px;
+  }
+  
+
+  h8 {
+    position: absolute;
+        
+        }
+
   ul {
   height: 281px;
 }
 
 #sidebar {
-  max-height: 285px;
+  max-height: 284px;
+  border-bottom: 10px solid gray;
+  width:100%;
 }
+
+#link2 {
+  position:absolute;
+         margin-left: 0px;
+         margin-top: 265px;
+         width: 100%;
+         overflow: auto;
+height:750px;
+padding: 0px 70px 0px 70px;
+}
+
+.footer {
+  bottom: 10px;
+}
+
+
 }
 
   /* For mobile phones: */
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 500px) {
+
+    .sustainability-words {
+      font-size: 13px;
+    }
+
+    .footer {
+      width: 40%;
+      border: 1px solid;
+      position: relative;
+      margin: 35px 0px 0px 0px;
+      display: block;
+    }
+
+
+
+    .img-empires {
+      text-align: left;
+        font-size: 12px;
+        font-style: italic;
+        height: 240px;
+        overflow: auto;
+        border-top: 15px solid rgba(242, 38, 19, 0.8);
+        border-bottom: 15px solid rgba(242, 38, 19, 0.8);
+        border-radius: 10px;
+    
+    } 
+    
+    .human-image {
+      text-align: left;
+      font-size: 12px;
+      font-style: italic;
+      height: 200px;
+      overflow: auto;
+      border-top: 15px solid rgba(53, 212, 180, 0.2);
+      border-bottom: 15px solid rgba(53, 212, 180, 0.2);
+      border-radius: 10px;
+    }
+    
+    .cosmo-images {
+      text-align: left;
+      font-size: 12px;
+      font-style: italic;
+      height: 200px;
+      overflow: auto;
+      border-top: 15px solid rgba(147, 116, 231, 0.2);
+      border-bottom: 15px solid rgba(147, 116, 231, 0.2);
+      border-radius: 10px;
+    }
+    
+    .farm-images {
+      text-align: left;
+      font-size: 12px;
+      font-style: italic;
+      height: 200px;
+      overflow: auto;
+      border-top: 15px solid rgba(78, 198, 84, 0.2);
+      border-bottom: 15px solid rgba(78, 198, 84, 0.2);
+      border-radius: 10px;
+    }
+    
+    .hunter-images {
+      text-align: left;
+      font-size: 12px;
+      font-style: italic;
+      height: 220px;
+      overflow: auto;
+      border-top: 15px solid rgba(171, 183, 183, 0.5);
+      border-bottom: 15px solid rgba(171, 183, 183, 0.5);
+      border-radius: 10px;
+    }
+    
+    .scientific-images {
+      text-align: left;
+      font-size: 12px;
+      font-style: italic;
+      height: 220px;
+      overflow: auto;
+      border-top: 15px solid rgba(255,215,0,0.3);
+      border-bottom: 15px solid rgba(255,215,0,0.3);
+      border-radius: 10px;
+    }
+    
+    .industrial-images {
+      text-align: left;
+      font-size: 12px;
+      font-style: italic;
+      height: 300px;
+      overflow: auto;
+      border-top: 15px solid gray;
+      border-bottom: 15px solid gray;
+      border-radius: 10px;
+    }
+    
+    .technological-images {
+      text-align: left;
+      font-size: 12px;
+      font-style: italic;
+      height: 300px;
+      overflow: auto;
+      border-top:15px solid rgba(30, 139, 195, 0.2);
+      border-bottom:15px solid rgba(30, 139, 195, 0.2);
+      border-radius: 10px;
+    }
+    
+    .sustainability-images {
+      text-align: left;
+      font-size: 12px;
+      font-style: italic;
+      height: 220px;
+      overflow: auto;
+      border-top: 15px solid rgba(242, 38, 19, 1);
+      border-bottom: 15px solid rgba(242, 38, 19,1);
+      border-radius: 10px;
+    
+    }
+    
+    .human-table {
+      height: 100px;
+      overflow: auto;
+      border-top: 15px solid rgba(53, 212, 180, 0.2);
+      border-bottom: 15px solid rgba(53, 212, 180, 0.2);
+      border-radius: 10px;
+    }
+    
+    .hunter-table {
+      height: 100px;
+      overflow: auto;
+      border-top: 15px solid rgba(171, 183, 183, 0.5);
+      border-bottom: 15px solid rgba(171, 183, 183, 0.5);
+      border-radius: 10px;
+    }
+    
+    .farm-table {
+      height: 100px;
+      overflow: auto;
+      border-top: 15px solid rgba(78, 198, 84, 0.2);
+      border-bottom: 15px solid rgba(78, 198, 84, 0.2);
+      border-radius: 10px;
+    }
+    
+    .table-empire {
+      height: 100px;
+      overflow: auto;
+      border-top: 15px solid rgba(242, 38, 19, 0.8);
+      border-bottom: 15px solid rgba(242, 38, 19, 0.8);
+      border-radius: 10px;
+    }
+    
+    .scientific-table {
+      height: 100px;
+      overflow: auto;
+      border-top: 15px solid rgba(255,215,0,0.3);
+      border-bottom: 15px solid rgba(255,215,0,0.3);
+      border-radius: 10px;
+    }
+    
+    .industrial-table {
+      height: 100px;
+      overflow: auto;
+      border-top: 15px solid gray;
+      border-bottom: 15px solid gray;
+      border-radius: 10px;
+    }
+    
+    .technological-table {
+      height: 100px;
+      overflow: auto;
+      border-top:15px solid rgba(30, 139, 195, 0.2);
+      border-bottom:15px solid rgba(30, 139, 195, 0.2);
+      border-radius: 10px;
+    }
+    
+    .sustainability-table {
+      height: 100px;
+      overflow: auto;
+      border-top: 15px solid rgba(242, 38, 19, 1);
+      border-bottom: 15px solid rgba(242, 38, 19,1);
+      border-radius: 10px;
+    }
+    
+    .cosmo-table {
+      text-align: left;
+      font-size: 12px;
+      font-style: italic;
+      height: 100px;
+      overflow: auto;
+      border-top: 15px solid rgba(147, 116, 231, 0.2);
+      border-bottom: 15px solid rgba(147, 116, 231, 0.2);
+      border-radius: 10px;
+    }
+
+
+    .bar-img {
+      position: relative;
+    }
+
+
+
+    #siderbar {
+      max-height: 150px;
+      border-bottom: 10px solid gray;
+      width: 100%;
+}
+    
   
     .coverpagewords1 {
       right: 2%;
@@ -360,11 +755,17 @@ margin:auto;
     #link2 {
       position:absolute;
              margin-left: 0px;
-             margin-top: 225px;
+             margin-top: 265px;
              width: 100%;
+             overflow: auto;
+    height:397px;
+    padding:10px;
+}
+
+
     }
 
-  }
+  
 
 
   @media only screen and (min-width:815px) {
