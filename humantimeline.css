@@ -125,6 +125,13 @@ img {
 
 }
 
+img:hover {
+  width:110%;
+  object-fit:cover;
+  transition:3s;
+}
+
+
 body {
 
 }
@@ -527,8 +534,9 @@ padding: 0px 70px 0px 70px;
       width: 40%;
       border: 1px solid;
       position: relative;
-      margin: 35px 0px 0px 0px;
+     
       display: block;
+      
     }
 
 
@@ -640,6 +648,7 @@ padding: 0px 70px 0px 70px;
       border-top: 15px solid rgba(53, 212, 180, 0.2);
       border-bottom: 15px solid rgba(53, 212, 180, 0.2);
       border-radius: 10px;
+
     }
     
     .hunter-table {
@@ -915,67 +924,111 @@ h10 {
 }
 
 .human-table {
-  height: 400px;
+  height: 100px;
   overflow: auto;
   border-top: 15px solid rgba(53, 212, 180, 0.2);
   border-bottom: 15px solid rgba(53, 212, 180, 0.2);
   border-radius: 10px;
 }
 
-.hunter-table {
+.human-table:hover {
   height: 400px;
+  transition:3s;
+}
+
+.hunter-table {
+  height: 100px;
   overflow: auto;
   border-top: 15px solid rgba(171, 183, 183, 0.5);
   border-bottom: 15px solid rgba(171, 183, 183, 0.5);
   border-radius: 10px;
 }
 
-.farm-table {
+.hunter-table:hover {
   height: 400px;
+  transition:3s;
+}
+
+.farm-table {
+  height: 100px;
   overflow: auto;
   border-top: 15px solid rgba(78, 198, 84, 0.2);
   border-bottom: 15px solid rgba(78, 198, 84, 0.2);
   border-radius: 10px;
 }
 
-.table-empire {
+.farm-table:hover {
   height: 400px;
+  transition:3s;
+}
+
+.table-empire {
+  height: 100px;
   overflow: auto;
   border-top: 15px solid rgba(242, 38, 19, 0.8);
   border-bottom: 15px solid rgba(242, 38, 19, 0.8);
   border-radius: 10px;
 }
 
-.scientific-table {
+.table-empire:hover {
   height: 400px;
+  transition:3s;
+}
+
+.scientific-table {
+  height: 100px;
   overflow: auto;
   border-top: 15px solid rgba(255,215,0,0.3);
   border-bottom: 15px solid rgba(255,215,0,0.3);
   border-radius: 10px;
 }
 
-.industrial-table {
+.scientific-table:hover {
   height: 400px;
+  transition:3s;
+}
+
+.industrial-table {
+  height: 100px;
   overflow: auto;
   border-top: 15px solid gray;
   border-bottom: 15px solid gray;
   border-radius: 10px;
 }
 
-.technological-table {
+.industrial-table:hover {
   height: 400px;
+  transition:3s;
+}
+
+
+.technological-table {
+  height: 100px;
   overflow: auto;
   border-top:15px solid rgba(30, 139, 195, 0.2);
   border-bottom:15px solid rgba(30, 139, 195, 0.2);
   border-radius: 10px;
 }
 
-.sustainability-table {
+.technological-table:hover {
   height: 400px;
+  transition:3s;
+}
+
+
+.sustainability-table {
+  height: 100px;
   overflow: auto;
   border-top: 15px solid rgba(242, 38, 19, 1);
   border-bottom: 15px solid rgba(242, 38, 19,1);
   border-radius: 10px;
 }
+
+
+.sustainability-table:hover {
+  height: 400px;
+  transition:3s;
+}
+
 
 }
