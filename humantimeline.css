@@ -932,7 +932,7 @@ h10 {
 }
 
 .human-table:hover {
-  height: 400px;
+  height: 300px;
   transition:3s;
 }
 
@@ -945,7 +945,7 @@ h10 {
 }
 
 .hunter-table:hover {
-  height: 400px;
+  height: 300px;
   transition:3s;
 }
 
@@ -958,7 +958,7 @@ h10 {
 }
 
 .farm-table:hover {
-  height: 400px;
+  height: 300px;
   transition:3s;
 }
 
@@ -971,7 +971,7 @@ h10 {
 }
 
 .table-empire:hover {
-  height: 400px;
+  height: 300px;
   transition:3s;
 }
 
@@ -984,7 +984,7 @@ h10 {
 }
 
 .scientific-table:hover {
-  height: 400px;
+  height: 300px;
   transition:3s;
 }
 
@@ -997,7 +997,7 @@ h10 {
 }
 
 .industrial-table:hover {
-  height: 400px;
+  height: 300px;
   transition:3s;
 }
 
@@ -1011,7 +1011,7 @@ h10 {
 }
 
 .technological-table:hover {
-  height: 400px;
+  height: 300px;
   transition:3s;
 }
 
@@ -1026,7 +1026,7 @@ h10 {
 
 
 .sustainability-table:hover {
-  height: 400px;
+  height: 300px;
   transition:3s;
 }
 
