@@ -239,6 +239,7 @@ h2{
 
 h3 {
   line-height:3;
+  text-align: center;
 }
 
 
@@ -491,9 +492,9 @@ margin:auto;
   }
   
 
-  h8 {
+  .h8 {
     position: absolute;
-        
+
         }
 
   ul {
