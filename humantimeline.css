@@ -1,4 +1,7 @@
 
+html {
+  scroll-behavior: smooth;
+}
 
 /***
 footer {
@@ -126,9 +129,7 @@ img {
 }
 
 img:hover {
-  width:110%;
-  object-fit:cover;
-  transition:3s;
+
 }
 
 
@@ -159,7 +160,7 @@ margin-left:250px;
 position:absolute;  
 padding:0px 10px 10px 10px;
 left:0;
-
+top: 50px;
 }
 
 .bar-img {
@@ -215,11 +216,29 @@ padding-left: 10px;
 }
 
 .story {
-  line-height: 1.2;
+  line-height:1.8;
   text-align:left;
+  font-size: medium;
+  height:400px;
+  overflow-x: auto;
+  padding:10px 15px;
+  border: 1px solid black;
+  width: 100%;
+  margin:15px auto;
+  background-color:whitesmoke;
 
 } 
 
+.image-in-words {
+width: 500px;
+text-align: center;
+
+}
+
+.image-in-words p {
+ width: 300px;
+  
+  }
 
 a {
   /*border-top:1px solid gray;**/
@@ -747,6 +766,7 @@ padding: 0px 70px 0px 70px;
       margin: 20px auto;
       font-size:11px;
       line-height: normal;
+      font-style: italic;
     }
  
  
